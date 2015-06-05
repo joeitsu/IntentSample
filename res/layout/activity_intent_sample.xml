@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/skyblue" >
+
+  <Button
+      android:id="@+id/btnDisp"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="2"
+      android:textColor="@color/blue"
+      android:text="他画面の起動" />
+
+  <Button
+      android:id="@+id/btnDisp1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:textColor="@color/blue"
+      android:text="その画面1"
+      android:layout_gravity="center"
+       />
+  <Button
+      android:id="@+id/btnDisp2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:textColor="@color/blue"
+      android:text="その画面2"
+      android:layout_gravity="center"
+       />
+
+  <CheckBox
+      android:id="@+id/cbox"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:checked="false"
+      android:text="チェックボックス"
+      />
+
+  <EditText
+      android:id="@+id/edittext"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:textColor="@color/blue"
+      />
+
+
+"
+
+</LinearLayout>
